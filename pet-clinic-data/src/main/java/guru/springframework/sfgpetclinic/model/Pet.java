@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinicc.model;/* 21/10/2022" "12:45" "Julian */
+package guru.springframework.sfgpetclinic.model;/* 21/10/2022" "12:45" "Julian */
 
 import java.time.LocalDate;
 
