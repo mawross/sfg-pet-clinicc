@@ -1,6 +1,6 @@
 package guru.springframework.sfgpetclinic.model;/* 21/10/2022" "12:48" "Julian */
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private String name;
 
