@@ -2,5 +2,5 @@ package guru.springframework.sfgpetclinic.services;/* 04/11/2022" "18:21" "Julia
 
 import guru.springframework.sfgpetclinic.model.Specialty;
 
-public interface SpecialtiesService extends CrudService<Specialty, Long> {
+public interface SpecialtyService extends CrudService<Specialty, Long> {
 }
