@@ -1,12 +1,27 @@
 package guru.springframework.sfgpetclinic.model;/* 21/10/2022" "12:45" "Julian */
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "pets")
 public class Pet extends BaseEntity {
 
+    @Column(name = "name")
     private String name;
+
+    @ManyToOne
+    @Column(name = "type_id")
     private PetType petType;
+
+    @ManyToOne
+    @Column(name = "owner_id")
     private Owner owner;
+
+    @Column(name = "birth_date")
     private LocalDate birthDate;
 
     public String getName() {
