@@ -77,6 +77,7 @@ public class DataLoader implements CommandLineRunner { //This is SpringBoot way 
         owner2.setAddress("66 Grunwaldzka Str");
         owner2.setCity("Sopot");
         owner2.setTelephone("+48 32345678");
+
         Pet fionaCat = new Pet();
         fionaCat.setPetType(saveCatPetType);
         fionaCat.setOwner(owner2);
