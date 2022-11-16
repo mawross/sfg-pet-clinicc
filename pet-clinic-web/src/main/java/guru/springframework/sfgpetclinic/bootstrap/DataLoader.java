@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 
+
 @Component
 public class DataLoader implements CommandLineRunner { //This is SpringBoot way data initializing
 
@@ -62,6 +63,7 @@ public class DataLoader implements CommandLineRunner { //This is SpringBoot way 
         owner1.setAddress("99 Wielkopolska Str");
         owner1.setCity("Gdynia");
         owner1.setTelephone("+48 12345678");
+
 
         Pet mikesPet = new Pet();
         mikesPet.setPetType(saveDogPetType);
