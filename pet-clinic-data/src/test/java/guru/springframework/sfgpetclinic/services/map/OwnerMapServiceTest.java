@@ -8,6 +8,7 @@ import java.util.HashSet;
 
 import static junit.framework.Assert.*;
 
+//Ten test byl zrobiony tylko z JUnit5
 class OwnerMapServiceTest {
 
     OwnerMapService ownerMapService;
